@@ -2,11 +2,12 @@
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'/>
-	<title></title>
+	<title><?php bloginfo('name'); ?></title>
 
 	<link rel='stylesheet' href='http://frank-nelson.com/base/reset.css' type='text/css'/>
-	<!--<link rel='stylesheet' href='style.css' type='text/css'/> -->
-	<link rel='stylesheet' href='http://frank-nelson.com/wp-content/themes/pressed_static/style.css'/>
+	<!--<link rel='stylesheet' href='style.css' type='text/css'/>
+	<link rel='stylesheet' href='http://frank-nelson.com/wp-content/themes/pressed_static/style.css'/>-->
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" >
 </head>
 	<body>
 		<header>
