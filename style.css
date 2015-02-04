@@ -1,0 +1,18 @@
+/*
+Theme Name: PHP Wk2 Theme
+Description: PHP Wk2 Theme
+Version: 1.0
+*/
+
+body {font-family:arial, sans-serif;max-width:1400px;margin:0 auto;position:relative;padding: 0 1em;}
+header {float:left; position:absolute; top:2.75em; left:0.5em;}
+nav {float:left; position:absolute; top:6em; left:1em;}
+nav ul li {line-height:1.75em;}
+section {width:90%; margin:0 auto;}
+section section {width:95%; padding:3em 2em;}
+section section p {font-size:2em; line-height:1.5em;font-family: 'Playfair Display', serif; }
+img {max-width: 100%; display:block; margin:0 auto;}
+h1 {font-family: 'Playfair Display', serif; font-weight: 900;font-size: 4em;}
+footer{text-align:center; padding: 2em 0 6em 0;width:80%; margin:0 auto; border-top:solid 1px rgba(0,0,0,0.7);}
+footer h1{font-size:2.5em; line-height:1.75em;}
+footer p {line-height:1.6em;}
