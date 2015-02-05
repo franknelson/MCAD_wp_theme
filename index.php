@@ -20,7 +20,7 @@
 			</nav>
 		</header>
 		<section>
-			<img src="http://frank-nelson.com/wp-content/themes/pressed_static/images/hero.jpg" />
+			<img src="<?php bloginfo('stylesheet_directory'); ?>images/hero.jpg" />
 
 			<section>
 				<p>Pressed and Squeezed is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
