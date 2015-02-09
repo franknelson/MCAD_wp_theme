@@ -26,9 +26,10 @@
 						the_post(); ?>
 			<section>
 				<h1><?php the_title_attribute(); ?></h1>
-				<?php the_content(); ?>
-				<!-- <p>Pressed and Squeezed is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
-				<p>We also make pancakes on the side.</p> -->
+				<?php the_content($more_link_text); ?>
+				<!-- <?php the_excerpt(); ?> -->
+				This address for this post is: <?php the_permalink(); ?>
+				
 			</section>
 		<?php endwhile; else :?>
 				<p><?php _e('Sorry, no content'); ?></p>
