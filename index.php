@@ -20,7 +20,7 @@
 			</nav>
 		</header>
 		<section>
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hero.jpg" />
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/hero.jpg" />
 			<?php if ( have_posts() ) :
 					while ( have_posts() ) :
 						the_post(); ?>
@@ -29,7 +29,7 @@
 				<?php the_content($more_link_text); ?>
 				<!-- <?php the_excerpt(); ?> -->
 				This address for this post is: <?php the_permalink(); ?>
-				
+
 			</section>
 		<?php endwhile; else :?>
 				<p><?php _e('Sorry, no content'); ?></p>
