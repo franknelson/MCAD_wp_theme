@@ -11,9 +11,10 @@
     <header>
       <h1>Pressed &amp Squeezed</h1>
       <nav>
-        <ul>
+        <?php wp_nav_menu( array( 'menu' => 'Main') ) ?>
+        <!-- <ul>
           <li>Home</li>
           <li>WordPress</li>
-        </ul>
+        </ul> -->
       </nav>
     </header>
